@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sat, 16 Nov 2013 08:23:54 +0900
+Source: nss
+Binary: libnss3 libnss3-1d libnss3-tools libnss3-dev libnss3-dbg
+Architecture: source amd64
+Version: 2:3.14.5-1
+Distribution: stable-security
+Urgency: low
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Changed-By: Mike Hommey <glandium@debian.org>
+Description: 
+ libnss3    - Network Security Service libraries
+ libnss3-1d - Network Security Service libraries - transitional package
+ libnss3-dbg - Debugging symbols for the Network Security Service libraries
+ libnss3-dev - Development files for the Network Security Service libraries
+ libnss3-tools - Network Security Service tools
+Changes: 
+ nss (2:3.14.5-1) stable-security; urgency=low
+ .
+   * New upstream release.
+     - Fixes CVE-2013-5605.
+Checksums-Sha1: 
+ f0c1ca0939527b62dcb1ad171baa98a61803337a 1296 nss_3.14.5-1.dsc
+ d977d50bbd78c7cae520a57781c19c07927f5b7e 6189507 nss_3.14.5.orig.tar.gz
+ 2583b9afce75322afb6492183100aa7d7de33651 53930 nss_3.14.5-1.debian.tar.gz
+ c08aa7b1ee41e433f54826ba51d16f09abd558b6 1066670 libnss3_3.14.5-1_amd64.deb
+ bc996fefcf121872c7aae8dcc1a0813c54198954 19992 libnss3-1d_3.14.5-1_amd64.deb
+ 1a72e90b21e5562eb0e17efc9cf9f9b3c268adb0 228870 libnss3-tools_3.14.5-1_amd64.deb
+ ae1d784b4e410beb9fb8ec8cd1ead60851aa960b 219880 libnss3-dev_3.14.5-1_amd64.deb
+ 3fffec332099fd41cefc1c2e3fd8620c97fb10fc 4836288 libnss3-dbg_3.14.5-1_amd64.deb
+Checksums-Sha256: 
+ 1b9d7a076e0eb56e7c478089f8a0af202fc752d1ea5640f4de842dd07db60bb0 1296 nss_3.14.5-1.dsc
+ 61f3493117483c85ef343fc7f22e1b3b7bff14580c632523d939eea8c5849216 6189507 nss_3.14.5.orig.tar.gz
+ b285b955b0cb3eed5da999b186aea07944cdd2bd0f1e085d381c354cc0be9c9f 53930 nss_3.14.5-1.debian.tar.gz
+ de33feae737c868abf0cd65a12838e1ed94ca9c75e9bbe51d9fcf9fe13a7e574 1066670 libnss3_3.14.5-1_amd64.deb
+ e35b3091cb767f6fb6efc2c67f2c3772faf54fbec9975fa7569d82f3bd18849a 19992 libnss3-1d_3.14.5-1_amd64.deb
+ 216b1389246f505224539d316ef2563a5e9a0e1f07ec4d88b4f864691028c1ed 228870 libnss3-tools_3.14.5-1_amd64.deb
+ c43d2a088e7a7bf2708ad79abe91bd56fbe1b46814c6d03ef468ee42e5185d3e 219880 libnss3-dev_3.14.5-1_amd64.deb
+ 1713ecc61fa639a965139afa0e93edf9728342153c1c0e1e21ace372d788b4f1 4836288 libnss3-dbg_3.14.5-1_amd64.deb
+Files: 
+ 2607315639eac9a42c3a8472fb9df738 1296 libs optional nss_3.14.5-1.dsc
+ 73cf5c23206f7d333853aea697a0e7c9 6189507 libs optional nss_3.14.5.orig.tar.gz
+ 68e6198f839152032c83e2f541d20f82 53930 libs optional nss_3.14.5-1.debian.tar.gz
+ 46ffb27b7ba65e830e470dd879613018 1066670 libs optional libnss3_3.14.5-1_amd64.deb
+ e827f9831fdaee4f1b6be63e3eccbbc9 19992 oldlibs extra libnss3-1d_3.14.5-1_amd64.deb
+ d6100dfc0ced696b9b1063c7e1775201 228870 admin optional libnss3-tools_3.14.5-1_amd64.deb
+ d5c26b56450865c18e9ee7f92cdd0d6a 219880 libdevel optional libnss3-dev_3.14.5-1_amd64.deb
+ 137d9ce92d714813dc9a05d4707e9dca 4836288 debug extra libnss3-dbg_3.14.5-1_amd64.deb
